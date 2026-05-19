@@ -1,0 +1,648 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VoyaGo is an AI travel companion that helps you decide what to do now, ask Kai for smarter local guidance, unlock GPS check-in stamps, and turn every trip into a digital passport.">
+  <meta name="keywords" content="AI travel app, AI travel planner, trip planning app, smart itinerary planner, GPS check-in app, digital travel passport, travel stamps app, travel companion app, local discovery app">
+  <link rel="canonical" href="https://voyagoo.app/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="VoyaGo">
+  <meta property="og:title" content="VoyaGo - AI travel companion">
+  <meta property="og:description" content="Ask Kai what to do now, open real place details, check in for XP and passport stamps, then turn your trip into a shareable travel story.">
+  <meta property="og:image" content="https://voyagoo.app/landing-assets/og-cover.png">
+  <meta property="og:url" content="https://voyagoo.app">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VoyaGo - AI travel companion and digital passport">
+  <meta name="twitter:description" content="AI trip planning, real map discovery, GPS check-ins, travel stamps, recaps, and traveler crew discovery in one app.">
+  <meta name="twitter:image" content="https://voyagoo.app/landing-assets/og-cover.png">
+
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="VoyaGo">
+  <meta name="theme-color" content="#e8a33d">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="VoyaGo">
+
+  <title>VoyaGo | AI Travel Companion, GPS Stamps & Digital Passport</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Preload critical font for LCP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,700..900,50,1&family=Outfit:wght@400;600;800;900&display=swap">
+
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  <link rel="stylesheet" href="landing.css">
+
+  <!-- Schema: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VoyaGo",
+    "applicationCategory": "TravelApplication",
+    "operatingSystem": "iOS, Android",
+    "description": "AI travel companion app for trip planning, real map discovery, GPS check-ins, digital passport stamps, travel recaps, and traveler crew discovery.",
+    "url": "https://voyagoo.app",
+    "screenshot": "https://voyagoo.app/landing-assets/screen-map.png",
+    "featureList": "AI trip planning, GPS check-ins, digital passport stamps, travel maps, traveler crew discovery, travel recaps",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "Free to download. Pro plans from $2.99/week."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "1"
+    }
+  }
+  </script>
+
+  <!-- Schema: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "VoyaGo",
+    "url": "https://voyagoo.app",
+    "logo": "https://voyagoo.app/icons/Icon-192.png",
+    "description": "VoyaGo makes travel feel alive — AI trip planning, GPS check-ins, digital passport stamps, and traveler crew discovery in one app.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "support@voyagoo.app"
+    },
+    "sameAs": [
+      "https://twitter.com/voyagoapp",
+      "https://instagram.com/voyagoapp",
+      "https://tiktok.com/@voyagoapp"
+    ]
+  }
+  </script>
+
+  <!-- Schema: FAQPage — enables rich snippet accordions in search results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is VoyaGo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "VoyaGo is an AI travel companion app that combines real map discovery, AI trip planning with Kai, GPS check-ins, collectible digital passport stamps, travel recaps, and traveler crew discovery. It is available on iOS and Android, free to download."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the AI travel planner work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "VoyaGo uses Kai, an AI travel companion. You can ask Kai anything — best local food, hidden spots, compact itinerary ideas, or what to do next. Kai responds with real suggestions, nearby place cards, and smart route ideas based on your location and travel style."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does GPS check-in work when traveling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When you arrive at a place — a landmark, restaurant, or neighborhood — tap Check-In on the place detail screen. VoyaGo verifies your GPS location, stamps your digital travel passport, awards XP, and auto-logs the visit. Your travel history builds automatically as you explore."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What countries does VoyaGo support?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "VoyaGo supports 15+ travel destinations including Japan, France, Thailand, Brazil, Egypt, Spain, Greece, Indonesia, Italy, Morocco, Mexico, USA, and Vietnam. Each destination has real map content, Kai-curated local picks, featured places, and GPS check-in locations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can VoyaGo help me plan a trip itinerary?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Kai can plan a compact itinerary for any duration — a 3-hour route, a full-day plan, or a weekend guide — based on your current location, travel style (food explorer, culture buff, adventure seeker), and budget. Just ask Kai in the chat."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is VoyaGo free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "VoyaGo is free to download and includes real map discovery, GPS check-ins, digital passport stamps, and daily Kai AI messages. Pro plans start at $2.99 per week and unlock 150 Kai messages per day, smart routes, hidden local picks, travel recaps, passport exports, and richer crew features."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which platforms is VoyaGo available on?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "VoyaGo is available on iOS (iPhone) and Android. Download it free from the Apple App Store or Google Play Store."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my location and travel data private?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. VoyaGo only accesses your location when you grant permission, and only uses it for GPS check-ins and nearby place discovery. We do not sell your data or share it with advertisers. Full details are in our Privacy Policy at voyagoo.app/privacy.html."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <svg aria-hidden="true" width="0" height="0" style="position:absolute">
+    <symbol id="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path>
+    </symbol>
+    <symbol id="icon-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9 18 3 21V6l6-3 6 3 6-3v15l-6 3-6-3Z"></path><path d="M9 3v15"></path><path d="M15 6v15"></path>
+    </symbol>
+    <symbol id="icon-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 2v5"></path><path d="M12 17v5"></path><path d="m4.9 4.9 3.5 3.5"></path><path d="m15.6 15.6 3.5 3.5"></path><path d="M2 12h5"></path><path d="M17 12h5"></path><path d="m4.9 19.1 3.5-3.5"></path><path d="m15.6 8.4 3.5-3.5"></path>
+    </symbol>
+    <symbol id="icon-passport" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M7 3h9a3 3 0 0 1 3 3v15H7a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3Z"></path><path d="M7 3v18"></path><path d="M13 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"></path><path d="M10 12h6"></path><path d="M13 9c1 1.2 1 4.8 0 6"></path>
+    </symbol>
+    <symbol id="icon-crew" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M16 11a4 4 0 1 0-8 0"></path><path d="M4 20a8 8 0 0 1 16 0"></path><path d="M19 8a3 3 0 0 1 2 5"></path><path d="M5 8a3 3 0 0 0-2 5"></path>
+    </symbol>
+    <symbol id="icon-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="10" width="16" height="10" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path>
+    </symbol>
+    <symbol id="icon-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+      <path d="M12 5v14"></path><path d="M5 12h14"></path>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+      <path d="M18 6 6 18"></path><path d="m6 6 12 12"></path>
+    </symbol>
+  </svg>
+
+  <div class="page-shell">
+    <header class="site-nav">
+      <a class="brand-mark" href="#top" aria-label="VoyaGo home">
+        <img src="icons/Icon-192.png" alt="VoyaGo app icon">
+        <span>VoyaGo.</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#screens">Screens</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#support">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="#investors">Investor brief</a>
+        <a class="btn btn-primary" href="download.html">Download app</a>
+      </div>
+      <button class="nav-burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <!-- Mobile nav -->
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <button class="mobile-nav-close" id="burger-close" aria-label="Close menu">
+        <svg width="24" height="24"><use href="#icon-close"></use></svg>
+      </button>
+      <nav>
+        <a href="#how-it-works">How it works</a>
+        <a href="#screens">Screens</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#support">Contact</a>
+      </nav>
+      <div class="mobile-nav-actions">
+        <a class="btn btn-ghost" href="#support">Ask for help</a>
+        <a class="btn btn-primary" href="download.html">Download app</a>
+      </div>
+    </div>
+    <div class="mobile-nav-backdrop" id="nav-backdrop"></div>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copyblock">
+          <div class="eyebrow reveal">
+            <svg><use href="#icon-spark"></use></svg>
+            AI travel companion
+          </div>
+          <h1 id="hero-title" class="reveal delay-1">Know what to do next, then stamp it into <em>memory.</em></h1>
+          <p class="hero-copy reveal delay-2">
+            VoyaGo turns local discovery into a clear loop: ask Kai, choose the right place, check in for XP, and watch your digital passport become the proof of every trip.
+          </p>
+          <div class="hero-actions reveal delay-3">
+            <a class="btn btn-primary" href="download.html">
+              Open the app
+              <svg><use href="#icon-arrow"></use></svg>
+            </a>
+            <a class="btn btn-ghost" href="#investors">Investor brief</a>
+          </div>
+          <div class="trust-row reveal delay-3" aria-label="Product highlights">
+            <span class="trust-pill"><svg><use href="#icon-spark"></use></svg>Kai decides with you</span>
+            <span class="trust-pill"><svg><use href="#icon-passport"></use></svg>GPS stamps + XP</span>
+            <span class="trust-pill"><svg><use href="#icon-crew"></use></svg>Safer traveler crew</span>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal delay-2" aria-label="VoyaGo product preview">
+          <article class="passport-card">
+            <div class="passport-top">
+              <div>
+                <div class="passport-label">VOYAGO</div>
+                <div class="passport-sub">Digital Passport</div>
+              </div>
+              <div class="stamp-ring">
+                <img src="icons/Icon-192.png" alt="VoyaGo stamp mark">
+              </div>
+            </div>
+            <h2>Proof your trip happened.</h2>
+            <p>Verified check-ins become stamps, XP, journals, recaps, and a map that grows with every city.</p>
+            <div class="stamp-grid" aria-hidden="true">
+              <span class="stamp-cell">TYO</span>
+              <span class="stamp-cell">PAR</span>
+              <span class="stamp-cell">BKK</span>
+              <span class="stamp-cell">RIO</span>
+              <span class="stamp-cell">ROM</span>
+              <span class="stamp-cell">SEL</span>
+            </div>
+          </article>
+
+          <article class="phone-card">
+            <div class="phone-screen">
+              <div class="phone-header">
+                <strong>Near you</strong>
+                <span class="phone-pill">GPS VERIFIED</span>
+              </div>
+              <div class="phone-map">
+                <img src="landing-assets/osm-eiffel-map-clean.png" alt="Map view of the Eiffel Tower area in Paris">
+                <div class="map-glass" aria-hidden="true">
+                  <span class="osm-pin pin-one"></span>
+                  <span class="osm-pin pin-two"></span>
+                </div>
+              </div>
+              <div class="phone-panel">
+                <strong>Kai found a better first stop.</strong>
+                <span>Smart picks adapt to the city, your style, and what is actually nearby.</span>
+              </div>
+            </div>
+          </article>
+
+          <aside class="kai-ticket">
+            <img src="landing-assets/kai-excited.png" alt="Kai, VoyaGo's illustrated AI travel companion" fetchpriority="high">
+            <div>
+              <strong>Meet Kai</strong>
+              <span>Your on-trip guide for questions, recaps, hidden spots, and "what should we do next?" moments.</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- ─── How it works ─── -->
+      <section id="how-it-works" class="how-section" aria-labelledby="how-title">
+        <div class="section-head reveal-scroll">
+          <h2 id="how-title">Plan any trip. Explore every destination. Remember the whole journey.</h2>
+          <p>VoyaGo is built around how travel actually happens — not just the booking, but every moment from landing to the flight home.</p>
+        </div>
+        <ol class="how-steps">
+          <li class="how-step reveal-scroll">
+            <div class="how-num">01</div>
+            <div class="how-body">
+              <h3>Open the map at your travel destination</h3>
+              <p>VoyaGo loads real map tiles and country-aware places the moment you arrive. No setup needed. Kai surfaces the top picks near you — ranked by your travel style, whether you are a food explorer, culture buff, adventure seeker, or beach hopper.</p>
+              <ul class="how-tags">
+                <li>Real map discovery</li>
+                <li>15+ countries</li>
+                <li>Style-ranked picks</li>
+              </ul>
+            </div>
+          </li>
+          <li class="how-step reveal-scroll">
+            <div class="how-num">02</div>
+            <div class="how-body">
+              <h3>Ask Kai to plan your trip in seconds</h3>
+              <p>Talk to the AI travel companion like a local friend who knows every city. Ask for the best ramen in Tokyo, a compact 3-hour itinerary in Paris, which temple to prioritize, or where locals actually eat. Kai responds with real suggestions and place cards you can tap straight into the map.</p>
+              <ul class="how-tags">
+                <li>AI trip itinerary</li>
+                <li>Local food picks</li>
+                <li>Hidden spots</li>
+              </ul>
+            </div>
+          </li>
+          <li class="how-step reveal-scroll">
+            <div class="how-num">03</div>
+            <div class="how-body">
+              <h3>GPS check-in and collect digital travel stamps</h3>
+              <p>Arrive at a landmark, restaurant, or neighborhood and tap Check-In. VoyaGo verifies your GPS location and instantly stamps your digital travel passport. Earn XP, climb rank tiers, unlock achievements, and build a verifiable travel record that grows with every destination you visit.</p>
+              <ul class="how-tags">
+                <li>GPS check-in</li>
+                <li>Digital passport</li>
+                <li>Travel stamps</li>
+              </ul>
+            </div>
+          </li>
+          <li class="how-step reveal-scroll">
+            <div class="how-num">04</div>
+            <div class="how-body">
+              <h3>Kai writes your trip recap automatically</h3>
+              <p>After the journey, Kai auto-generates a cinematic travel recap using your check-ins, saved places, and trip dates. Your digital passport fills with stamps. Share the recap with your crew, export your passport, or use it to plan your next trip. Every journey becomes a story — without writing a word.</p>
+              <ul class="how-tags">
+                <li>Auto travel journal</li>
+                <li>Trip recap</li>
+                <li>Shareable passport</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- App screens showcase -->
+      <section id="screens" class="screens-section reveal-scroll" aria-labelledby="screens-title">
+        <div class="screens-head">
+          <div class="eyebrow eyebrow-gold">
+            <svg><use href="#icon-spark"></use></svg>
+            Inside the app
+          </div>
+          <h2 id="screens-title">A travel app that feels alive in your hand.</h2>
+          <p>VoyaGo combines AI trip planning, real map discovery, GPS check-ins, social traveler discovery, and a digital passport in one cinematic mobile experience.</p>
+        </div>
+
+        <div class="screens-tour">
+          <figure class="screen-hero-phone">
+            <div class="sp-frame">
+              <div class="sp-notch"></div>
+              <img loading="lazy" src="landing-assets/screen-map.png" alt="VoyaGo AI travel map screen with nearby places, Kai recommendations, and GPS check-in discovery">
+              <div class="sp-shine"></div>
+            </div>
+            <figcaption>
+              <span class="screen-kicker">Live map discovery</span>
+              <strong>Find the next place worth walking to.</strong>
+              <p>Real map tiles, country-aware places, nearby picks, and Kai route suggestions help travelers decide what to do now, not just before the trip starts.</p>
+            </figcaption>
+          </figure>
+
+          <div class="screen-story-grid" role="list">
+            <article class="screen-story-card" role="listitem">
+              <img loading="lazy" src="landing-assets/screen-discover.png" alt="VoyaGo Discover screen with featured travel card, categories, and trending places">
+              <div>
+                <span>Discover</span>
+                <strong>AI travel recommendations with real place context.</strong>
+                <p>Search, categories, trending places, featured cards, and favorite hearts built for quick destination decisions.</p>
+              </div>
+            </article>
+            <article class="screen-story-card" role="listitem">
+              <img loading="lazy" src="landing-assets/screen-chat.png" alt="VoyaGo Kai AI chat screen with quick travel planning prompts">
+              <div>
+                <span>Kai assistant</span>
+                <strong>Ask for a smarter route, hidden picks, or a quick decision brief.</strong>
+                <p>Kai helps with local timing, place comparisons, trip questions, and compact itinerary planning.</p>
+              </div>
+            </article>
+            <article class="screen-story-card" role="listitem">
+              <img loading="lazy" src="landing-assets/screen-crew.png" alt="VoyaGo Crew screen showing nearby traveler discovery and social connection cards">
+              <div>
+                <span>Traveler crew</span>
+                <strong>Meet compatible explorers without exposing exact location.</strong>
+                <p>Nearby traveler discovery is designed around public trust signals, mutual intent, and safe connection patterns.</p>
+              </div>
+            </article>
+            <article class="screen-story-card" role="listitem">
+              <img loading="lazy" src="landing-assets/screen-profile.png" alt="VoyaGo profile and travel journal screen with stats and recaps">
+              <div>
+                <span>Passport profile</span>
+                <strong>Turn check-ins into a travel identity.</strong>
+                <p>Digital passport stamps, profile progress, auto-journal cards, and shareable trip recaps keep the app valuable after the journey.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Social proof strip -->
+      <div class="proof-strip reveal-scroll">
+        <div class="proof-stars" aria-label="Product proof">Built for modern travelers</div>
+        <div class="proof-divider"></div>
+        <div class="proof-pills">
+          <span class="proof-pill">Free to download</span>
+          <span class="proof-pill">iOS & Android</span>
+          <span class="proof-pill">No account required to explore</span>
+          <span class="proof-pill">15+ countries seeded</span>
+        </div>
+      </div>
+
+      <section id="product" aria-labelledby="product-title">
+        <div class="section-head reveal-scroll">
+          <h2 id="product-title">Built around one loop travelers remember.</h2>
+          <p>Most travel apps solve one slice: booking, maps, reviews, or memories. VoyaGo connects the moment of deciding, checking in, remembering, and sharing.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card large dark reveal-scroll">
+            <div class="icon-box"><svg><use href="#icon-map"></use></svg></div>
+            <h3>Decide what to do now</h3>
+            <p>Kai turns nearby places into ranked next moves, so travelers are not stuck comparing tabs, reviews, maps, and random lists.</p>
+          </article>
+          <article class="feature-card small reveal-scroll">
+            <div class="icon-box"><svg><use href="#icon-spark"></use></svg></div>
+            <h3>Ask Kai before you go</h3>
+            <p>Compare timing, crowds, budget, and alternatives from every place detail so the next action feels useful, not decorative.</p>
+          </article>
+          <article class="feature-card small reveal-scroll">
+            <div class="icon-box"><svg><use href="#icon-passport"></use></svg></div>
+            <h3>Check in, earn, remember</h3>
+            <p>GPS check-ins unlock XP, stamps, journal seeds, share cards, and a passport that makes travel feel collectible.</p>
+          </article>
+          <article class="feature-card small reveal-scroll">
+            <div class="icon-box"><svg><use href="#icon-crew"></use></svg></div>
+            <h3>Meet with trust signals</h3>
+            <p>Crew discovery is built around verified check-ins, general-area privacy, public-meet guidance, and report/block controls.</p>
+          </article>
+          <article class="feature-card large reveal-scroll">
+            <div class="icon-box"><svg><use href="#icon-lock"></use></svg></div>
+            <h3>Pro when you need more</h3>
+            <p>Upgrade for 150 Kai messages per day, smart routes, hidden local picks, passport recaps, exports, and richer traveler discovery tools.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="pricing" aria-labelledby="pricing-title">
+        <div class="pricing-band reveal-scroll">
+          <div class="pricing-copy">
+            <div class="eyebrow">
+              <svg><use href="#icon-lock"></use></svg>
+              Simple plans
+            </div>
+            <h2 id="pricing-title">Start free. Upgrade when Kai becomes part of the trip.</h2>
+            <p>VoyaGo is free to download with real map discovery, GPS check-ins, digital passport stamps, and a daily Kai allowance. Pro unlocks 150 Kai messages per day, heavier AI travel planning, hidden local picks, recaps, passport exports, and crew discovery tools.</p>
+          </div>
+          <div class="pricing-cards" aria-label="VoyaGo pricing overview">
+            <article class="price-card">
+              <span>Free</span>
+              <strong>$0</strong>
+              <p>Explore the map, collect stamps, save places, and chat with Kai up to the daily free limit.</p>
+            </article>
+            <article class="price-card featured">
+              <span>Pro</span>
+              <strong>From $2.99/week</strong>
+              <p>Monthly and yearly plans are available for frequent travelers. Pro includes 150 Kai messages per day, smart routes, hidden local picks, richer recaps, passport exports, and traveler crew tools.</p>
+              <a class="btn btn-primary" href="download.html">Download app</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="investors" aria-labelledby="investor-title">
+        <div class="investor-band reveal-scroll">
+          <div class="investor-copy">
+            <div class="eyebrow">
+              <svg><use href="#icon-spark"></use></svg>
+              Investor lens
+            </div>
+            <h2 id="investor-title">A travel companion with retention built into the ritual.</h2>
+            <p>VoyaGo is not only a utility. It creates a collectible loop around travel behavior: discovery leads to check-ins, check-ins unlock status, status feeds profiles, profiles create social proof, and Kai makes the next action feel personal.</p>
+            <a class="btn btn-primary" href="#support">Request the deck</a>
+          </div>
+          <div class="investor-metrics" aria-label="Investor highlights">
+            <div class="metric">
+              <strong>Loop</strong>
+              <span>Discovery, check-in, passport, recap, social sharing, and repeat travel planning.</span>
+            </div>
+            <div class="metric">
+              <strong>AI</strong>
+              <span>Contextual help that lives inside the trip instead of a detached chatbot page.</span>
+            </div>
+            <div class="metric">
+              <strong>Pro</strong>
+              <span>Premium moments are tied to real value: 150 Kai messages/day, recaps, Crew Finder, and exports.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="support" aria-labelledby="support-title">
+        <div class="section-head reveal-scroll">
+          <h2 id="support-title">Questions, support, partnership.</h2>
+          <p>Send a support request, investor note, bug report, or partnership question and we'll get back to you.</p>
+        </div>
+
+        <div class="support-layout">
+          <form class="support-card" data-contact-form>
+            <h3 class="serif">Talk to VoyaGo</h3>
+            <p>Fill in the form and your message will open ready to send in your email app.</p>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="message">How can we help?</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <p data-form-status aria-live="polite"></p>
+            <button class="btn btn-primary" type="submit">
+              Send via Email
+              <svg><use href="#icon-arrow"></use></svg>
+            </button>
+          </form>
+
+          <div id="faq" class="faq-panel">
+            <details open>
+              <summary>What is VoyaGo?<svg><use href="#icon-plus"></use></svg></summary>
+              <p>VoyaGo is an AI travel companion app that combines real maps, AI trip planning, GPS check-ins, digital passport stamps, travel recaps, and traveler crew discovery — all in one app for iOS and Android.</p>
+            </details>
+            <details>
+              <summary>How does the AI trip planner work?<svg><use href="#icon-plus"></use></svg></summary>
+              <p>VoyaGo includes Kai, an AI travel companion you can chat with inside the app. Ask for a compact itinerary, the best local food near you, hidden spots the tourist guides miss, or how to split a day between two neighborhoods. Kai responds with real suggestions and place cards you can tap directly into the map.</p>
+            </details>
+            <details>
+              <summary>What countries and travel destinations does VoyaGo support?<svg><use href="#icon-plus"></use></svg></summary>
+              <p>VoyaGo currently supports 15+ destinations including Japan (Tokyo), France (Paris), Thailand (Bangkok), Brazil (Rio), Egypt, Spain, Greece, Indonesia (Bali), Italy (Rome), Morocco, Mexico, USA, and Vietnam. More destinations are added regularly. Each country has real map content, Kai-curated local picks, and GPS check-in locations.</p>
+            </details>
+            <details>
+              <summary>How does GPS check-in work?<svg><use href="#icon-plus"></use></svg></summary>
+              <p>When you arrive at a landmark, restaurant, or neighborhood, tap Check-In on the place detail screen. VoyaGo verifies your GPS location and instantly stamps your digital travel passport, awards XP, and logs the visit in your auto-journal. No manual entry needed — your travel history builds as you explore.</p>
+            </details>
+            <details>
+              <summary>Who is it for?<svg><use href="#icon-plus"></use></svg></summary>
+              <p>Explorers who want practical help during trips, people who enjoy collecting memories, social travelers looking for crew, and investors evaluating the future of AI-assisted travel experiences.</p>
+            </details>
+            <details>
+              <summary>Is it free?<svg><use href="#icon-plus"></use></svg></summary>
+              <p>VoyaGo is free to download and explore. A premium plan unlocks 150 Kai messages per day, AI trip planning prompts, travel recaps, Crew Finder tools, and passport exports. No credit card required to start.</p>
+            </details>
+            <details>
+              <summary>Which platforms is it on?<svg><use href="#icon-plus"></use></svg></summary>
+              <p>VoyaGo is available on iOS and Android. Download it from the App Store or Google Play. No web version is required - the full experience lives in the app.</p>
+            </details>
+            <details>
+              <summary>How does VoyaGo make money?<svg><use href="#icon-plus"></use></svg></summary>
+              <p>The app includes a subscription model for premium functionality such as 150 Kai messages per day, richer journal exports, Crew Finder tools, and travel recap features.</p>
+            </details>
+            <details>
+              <summary>Is my data private?<svg><use href="#icon-plus"></use></svg></summary>
+              <p>Yes. VoyaGo only uses your location when you grant permission, and only for in-app features like GPS check-ins and nearby discovery. We do not sell your data. See our <a href="privacy.html" style="color:var(--gold-deep);font-weight:800;text-underline-offset:3px;text-decoration:underline">Privacy Policy</a> for full details.</p>
+            </details>
+            <details>
+              <summary>Does it use real travel data?<svg><use href="#icon-plus"></use></svg></summary>
+              <p>Yes. The app is built around real map tiles, country-aware places, GPS-based check-ins, and routed place details with external links where available.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <aside class="final-cta reveal-scroll" aria-labelledby="final-title">
+        <h2 id="final-title">Make travel feel less disposable.</h2>
+        <a class="btn btn-primary" href="download.html">
+          Try VoyaGo
+          <svg><use href="#icon-arrow"></use></svg>
+        </a>
+      </aside>
+    </main>
+
+    <footer>
+      <a class="brand-mark footer-brand" href="#top" aria-label="VoyaGo home">
+        <img src="icons/Icon-192.png" alt="VoyaGo app icon">
+        <span>VoyaGo.</span>
+      </a>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#screens">Screens</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#support">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+      </nav>
+      <div class="footer-bottom">
+        <div class="footer-social" aria-label="VoyaGo social media">
+          <a href="https://twitter.com/voyagoapp" aria-label="VoyaGo on X / Twitter" rel="noopener noreferrer" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.742l7.73-8.835L1.254 2.25H8.08l4.259 5.629L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+          </a>
+          <a href="https://instagram.com/voyagoapp" aria-label="VoyaGo on Instagram" rel="noopener noreferrer" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          </a>
+          <a href="https://tiktok.com/@voyagoapp" aria-label="VoyaGo on TikTok" rel="noopener noreferrer" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.73a8.17 8.17 0 0 0 4.78 1.52V6.79a4.85 4.85 0 0 1-1.01-.1z"/></svg>
+          </a>
+        </div>
+        <span class="footer-copy">&copy; <span data-year></span> VoyaGo. All rights reserved.</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="landing.js"></script>
+</body>
+</html>

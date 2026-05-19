@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block dev/build artefacts
+Disallow: /flutter_service_worker.js
+Disallow: /version.json
+Disallow: /assets/
+
+Sitemap: https://voyagoo.app/sitemap.xml
