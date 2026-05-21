@@ -864,6 +864,26 @@ section {
   line-height: 1.55;
 }
 
+.support-footnote {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.support-footnote a {
+  color: var(--gold-deep);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-left: 4px;
+}
+
+.support-footnote a:hover {
+  color: var(--ink);
+}
+
 .field {
   display: grid;
   gap: 8px;
